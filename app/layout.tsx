@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Wen Kang Pang Acupuncture and Chinese Medicine",
+  title: "Dr. Pang Acupuncture & Chinese Medicine",
   description: "Dr. Wen Kang Pang works in Saskatoon, Saskatchewan Canada. He studied Chinese medicine and accupuncture in Beijing. He currently works at Circle Chiropratic Clinic.",
 
 };
@@ -37,7 +37,7 @@ export default function RootLayout({
             <div className="flex flex-row items-center justify-between gap-8">
               <Link href="/" className="inline-block flex-shrink-0">
                 <Image
-                  src="/landingpage-logo.png"
+                  src="/landinglogo.png"
                   alt="Wen Kang Pang Logo"
                   width={600}
                   height={200}
