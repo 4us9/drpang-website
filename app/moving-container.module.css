@@ -1,0 +1,14 @@
+
+.movingContainer {
+  display: inline-block;
+  animation: wiggle 15s ease-in-out infinite;
+}
+
+@keyframes wiggle {
+  0%   { transform: rotate(0deg); }
+  5%   { transform: rotate(-4deg); }
+  10%  { transform: rotate(4deg); }
+  15%  { transform: rotate(-2deg); }
+  20%  { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}
