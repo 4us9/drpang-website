@@ -55,14 +55,21 @@ export default function RootLayout({
 
             <nav className="flex gap-8 items-center justify-center mt-7 border-t border-gray-100 pt-6">
               <Link href="/" className="text-sm lg:text-base font-medium text-gray-600 hover:text-gray-900 border-b-2 border-transparent hover:border-gray-900 pb-0.5 transition-colors duration-150">Home</Link>
-              <Link href="/services" className="text-sm lg:text-base font-medium text-gray-600 hover:text-gray-900 border-b-2 border-transparent hover:border-gray-900 pb-0.5 transition-colors duration-150">Services Offered</Link>
-              <Link href="/testimonies" className="text-sm lg:text-base font-medium text-gray-600 hover:text-gray-900 border-b-2 border-transparent hover:border-gray-900 pb-0.5 transition-colors duration-150">Testimonies</Link>
+              <Link href="/articles" className="text-sm lg:text-base font-medium text-gray-600 hover:text-gray-900 border-b-2 border-transparent hover:border-gray-900 pb-0.5 transition-colors duration-150">Articles</Link>
               <Link href="/about" className="text-sm lg:text-base font-medium text-gray-600 hover:text-gray-900 border-b-2 border-transparent hover:border-gray-900 pb-0.5 transition-colors duration-150">About Me</Link>
             </nav>
           </div>
         </header>
 
-        {children}
+        <main className="flex-1">
+          {children}
+        </main>
+
+        <footer className="mt-auto border-t border-gray-200 bg-white">
+          <div className="max-w-screen-xl mx-auto px-6 lg:px-12 py-6 text-center text-sm text-gray-400">
+            &copy; {new Date().getFullYear()} Wen Kang Pang. All rights reserved.
+          </div>
+        </footer>
       </body>
     </html>
   );
