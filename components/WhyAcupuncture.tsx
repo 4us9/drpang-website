@@ -21,7 +21,7 @@ export default function WhyAcupuncture() {
           </div>
           <div className="flex-shrink-0">
             <Image
-              src="/accupuncture.png"
+              src="/shutterstock_acupuncture.jpg"
               alt="Acupuncture treatment"
               width={460}
               height={360}

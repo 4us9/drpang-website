@@ -12,10 +12,10 @@ export default function Hero() {
                 TCM Acupuncture for Bell&apos;s Palsy in Saskatoon
             </h1>
             <p className="text-lg lg:text-xl text-gray-600 max-w-2xl mx-auto mb-4">
-                With over 25 years of Acupuncture experience, I have helped many patients with Bell's Palsy improve their conidtion. If you or someone you know is experiencing facial paralysis, consultation is available.
+                With over 25 years of Acupuncture experience, Dr. Pang has helped many patients with Bell's Palsy improve their condition. If you or someone you know is experiencing facial paralysis, a consultation is available.
             </p>
             <p className="text-base text-gray-500 max-w-xl mx-auto mb-10">
-                New patients are welcomed!
+                New patients are welcome!
             </p>
             <div className="flex justify-center">
                 <Link

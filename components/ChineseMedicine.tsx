@@ -5,7 +5,7 @@ export default function ChineseMedicine() {
     <section className="py-14 px-6 bg-white">
       <div className="max-w-screen-xl mx-auto flex justify-center">
         <Image
-          src="/chinese-medicine.jpg"
+          src="/shutterstock_chinesemed.jpg"
           alt="Chinese herbal medicine"
           width={600}
           height={400}

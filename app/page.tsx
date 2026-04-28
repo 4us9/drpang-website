@@ -4,7 +4,7 @@ import Image from "next/image";
 //components
 import ChineseMedicine from "@/components/ChineseMedicine";
 import SubAboutDrPang from "@/components/AboutDrPang";
-import HomeTestimonial from "@/components/testimonial";
+import HomeTestimonial from "@/components/Testimonial";
 import WhyAcupuncture from "@/components/WhyAcupuncture";
 import BeforeAfter from "@/components/BeforeAfter";
 import Hero from "@/components/Hero";
