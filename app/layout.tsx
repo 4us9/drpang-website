@@ -16,9 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Dr. Pang Acupuncture & Chinese Medicine",
-  description: "Dr. Wen Kang Pang works in Saskatoon, Saskatchewan Canada. He studied Chinese medicine and accupuncture in Beijing. He currently works at Circle Chiropratic Clinic.",
-
+  title: " Dr. Pang Face Paralysis Acupuncture",
+  description: "Dr. Pang is one of the few practitioners in Saskatchewan specializing in facial paralysis and Bell's Palsy recovery through traditional Chinese medicine and acupuncture. Located at Circle Chiropractic Clinic, Saskatoon.",
 };
 
 export default function RootLayout({
@@ -55,7 +54,6 @@ export default function RootLayout({
 
             <nav className="flex gap-8 items-center justify-center mt-7 border-t border-gray-100 pt-6">
               <Link href="/" className="text-sm lg:text-base font-medium text-gray-600 hover:text-gray-900 border-b-2 border-transparent hover:border-gray-900 pb-0.5 transition-colors duration-150">Home</Link>
-              <Link href="/articles" className="text-sm lg:text-base font-medium text-gray-600 hover:text-gray-900 border-b-2 border-transparent hover:border-gray-900 pb-0.5 transition-colors duration-150">Articles</Link>
               <Link href="/about" className="text-sm lg:text-base font-medium text-gray-600 hover:text-gray-900 border-b-2 border-transparent hover:border-gray-900 pb-0.5 transition-colors duration-150">About Me</Link>
             </nav>
           </div>
