@@ -24,9 +24,7 @@ export default function SubAboutDrPang() {
                     bringing his expertise to Canada. He has been practicing in Saskatoon since 2000.
                     </p>
                     <p className="text-gray-700 text-lg leading-relaxed mb-6">
-                    He entered this field to help patients overcome conditions that conventional
-                    medicine struggles to address — restoring health so people can live full,
-                    happy lives.
+                    He entered this field to help patients relieve their health concerns and live happy, healthy lives.
                     </p>
                     <Link
                     href="/about"
