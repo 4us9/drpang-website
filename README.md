@@ -1,4 +1,4 @@
-## Dr. Pang Acupuncture — Client Website
+## Client Website: Dr. Pang Acupuncture 
 
 A business website for Dr. Pang, a Traditional Chinese Medicine practitioner in Saskatoon, Saskatchewan.
 
