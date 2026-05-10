@@ -1,8 +1,8 @@
 import Image from 'next/image';
 
 const testimonials = [
-  { src: '/testimonial1.png', alt: 'Handwritten patient testimonial 1' },
-  { src: '/testimonial2.png', alt: 'Handwritten patient testimonial 2' },
+  { src: '/test1.png', alt: 'Handwritten patient testimonial 1' },
+  { src: '/test2.png', alt: 'Handwritten patient testimonial 2' },
 ];
 
 export default function Testimonials() {
