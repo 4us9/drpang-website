@@ -54,6 +54,7 @@ export default function RootLayout({
 
             <nav className="flex gap-8 items-center justify-center mt-7 border-t border-gray-100 pt-6">
               <Link href="/" className="text-sm lg:text-base font-medium text-gray-600 hover:text-gray-900 border-b-2 border-transparent hover:border-gray-900 pb-0.5 transition-colors duration-150">Home</Link>
+              <Link href="/testimonials" className="text-sm lg:text-base font-medium text-gray-600 hover:text-gray-900 border-b-2 border-transparent hover:border-gray-900 pb-0.5 transition-colors duration-150">Success Stories</Link>
               <Link href="/about" className="text-sm lg:text-base font-medium text-gray-600 hover:text-gray-900 border-b-2 border-transparent hover:border-gray-900 pb-0.5 transition-colors duration-150">About</Link>
             </nav>
           </div>

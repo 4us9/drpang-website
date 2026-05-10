@@ -5,16 +5,14 @@ const testimonials = [
   { src: '/testimonial2.png', alt: 'Handwritten patient testimonial 2' },
 ];
 
-export default function HomeTestimonial() {
+export default function Testimonials() {
   return (
-    <section className="py-14 px-6 bg-white">
+    <div className="py-16 px-6 bg-gradient-to-br from-gray-50 to-gray-100 min-h-screen">
       <div className="max-w-screen-xl mx-auto">
-        <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 text-center mb-2">
-          Patient Stories
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <h1 className="text-4xl font-bold text-gray-900 text-center mb-10">Patient Stories</h1>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {testimonials.map((t, i) => (
-            <div key={i} className="border border-gray-200 rounded-xl overflow-hidden shadow-sm bg-gray-100">
+            <div key={i} className="bg-gray-100 border border-gray-200 rounded-xl overflow-hidden shadow-sm">
               <Image
                 src={t.src}
                 alt={t.alt}
@@ -23,10 +21,9 @@ export default function HomeTestimonial() {
                 className="w-full h-auto object-contain"
               />
             </div>
-        
           ))}
         </div>
       </div>
-    </section>
+    </div>
   );
 }
