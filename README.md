@@ -9,3 +9,6 @@ A business website for Dr. Pang, a Traditional Chinese Medicine practitioner in 
 - Next.js 16 (App Router)
 - TypeScript
 - Tailwind CSS
+
+## License
+Private and licensed for personal use only.
